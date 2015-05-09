@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="WrapControl.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WrapControl"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <local:WrapPanel>
+            <Rectangle Width="200" Height="200" Fill="Red"/>
+            <Rectangle Width="200" Height="200" Fill="Orange"/>
+            <Rectangle Width="200" Height="200" Fill="Yellow"/>
+            <Rectangle Width="200" Height="200" Fill="Green"/>
+            <Rectangle Width="200" Height="200" Fill="Cyan"/>
+            <Rectangle Width="200" Height="200" Fill="Blue"/>
+            <Rectangle Width="200" Height="200" Fill="Magenta"/>
+            <Rectangle Width="200" Height="200" Fill="Purple"/>
+        </local:WrapPanel>
+    </Grid>
+</Page>
+    
